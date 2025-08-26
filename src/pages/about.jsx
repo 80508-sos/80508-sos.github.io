@@ -6,6 +6,8 @@ import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 
+import TimeTable from "../components/about/timetable";
+
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -44,8 +46,11 @@ const About = () => {
 						</div>
 						<div className="about-subtitle">Teaching:</div>
 						<br></br>
+						<div>
+							<TimeTable />
+						</div>
 						<div className="teaching_year">CS 61BL, Summer 25</div>
-						<div className="coursework_year" align="center">Lab + Discussion TA, Exam Dev</div>
+						<div className="coursework_year" align="center">Discussion + Lab TA, Exam + Lab Dev</div>
 						<br></br>
 						<table>
 							<thead>
@@ -53,6 +58,14 @@ const About = () => {
 								<th>Slides</th>
 							</thead>
 							<tbody>
+								<td>
+									<a>...</a>
+								</td>
+								<td>
+									<a>...</a>
+								</td>
+							</tbody>
+							{/* <tbody>
 								<td>
 									<a href="https://cs61bl.github.io/su25/labs/lab01/">Java & Git</a>
 								</td>
@@ -65,7 +78,7 @@ const About = () => {
 									<a href="https://cs61bl.github.io/su25/labs/lab02/">Conditionals, Loops, and Arrays</a>
 								</td>
 								<td>
-									<a href="https://docs.google.com/presentation/d/1K38C0JsypJU0UNMS7MzRumTNKisgfRCXzuofkvDhIxA/edit?usp=drive_link">Slides</a>
+									<a>N/A</a>
 								</td>
 							</tbody>
 							<tbody>
@@ -145,10 +158,15 @@ const About = () => {
 									<a href=""></a>
 								</td>
 								<td>
-									<a href="">Slides</a>
+									<a>...</a>
 								</td>
-							</tbody>
+							</tbody> */}
 						</table>
+						<br></br>
+						<br></br>
+						<div className="teaching_year">CS 61B, Fall 25</div>
+						<div className="coursework_year" align="center">Discussion TA, Exam Dev</div>
+						<br></br>
 						<br></br>
 						<div className="about-subtitle">Coursework:</div>
 						<div className="coursework">
@@ -162,11 +180,11 @@ const About = () => {
 						<div className="coursework_year">Spring 2025</div>
 						<ul className="coursework_inner">
 							<li className="coursework_inner"><span>CS 161: Computer Security (A+)</span>
-								<a>&nbsp; &nbsp; (</a>
+								{/* <a>&nbsp; &nbsp; (</a>
 								<a href="https://docs.google.com/presentation/d/1Of4ilTnUeSJ29E6I0uiRZmwfWZc1BW_7Z_RxkUy5rpM/edit?usp=drive_link">midterm cheatsheet</a>
 								<a>,&nbsp; </a>
 								<a href="https://docs.google.com/presentation/d/1Of4ilTnUeSJ29E6I0uiRZmwfWZc1BW_7Z_RxkUy5rpM/edit?usp=drive_link">final cheatsheet</a>
-								<a>)</a>
+								<a>)</a> */}
 							</li>
 							<li className="coursework_inner"><span>CS 170: Efficient Algorithms and Intractable Problems (A)</span></li>
 							<li className="coursework_inner"><span>CS 186: Database Systems (A+)</span></li>

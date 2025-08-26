@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
+		title: "Personal Website",
 		name: "Karen Meng",
 		email: "kmeng@berkeley.edu",
 		logo: "../logo.png",
@@ -95,10 +95,28 @@ const INFO = {
 		},
 
 		{
+			title: "Cnake",
+			description:
+				"Coded an interactive snake game in C.",
+			logo: "snek.png",
+			linkText: "View Project (must request access)",
+			link: "https://github.com/61c-student/fa24-proj1-kmeng256",
+		},
+
+		{
 			title: "Scheme Interpreter",
 			description:
 				"Built a Scheme interpreter using Python.",
 			logo: "https://cs61a.org/proj/scheme/images/scheme_eval_recursion.png",
+			linkText: "N/A",
+			// link: "https://github.com",
+		},
+
+		{
+			title: "Diceroll Sim Game",
+			description:
+				"Coded a two-player dice game simulator. Implemented various game strategies to optimize scores.",
+			logo: "dice.png",
 			linkText: "N/A",
 			// link: "https://github.com",
 		},

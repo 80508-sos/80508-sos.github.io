@@ -16,7 +16,7 @@ const Footer = () => {
 							<Link to="/projects">Projects</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/about">Teaching & Coursework</Link>
+							<Link to="/teaching-n-coursework">Teaching & Coursework</Link>
 						</li>
 						<li className="footer-nav-link-item">
 							<Link to="/articles">TBD</Link>
@@ -27,11 +27,11 @@ const Footer = () => {
 					</ul>
 				</div>
 
-				{/* <div className="footer-credits">
+				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
+						Template credit to Tharindu.dev
 					</div>
-				</div> */}
+				</div>
 			</div>
 		</React.Fragment>
 	);
