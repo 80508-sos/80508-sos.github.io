@@ -47,7 +47,7 @@ const About = () => {
 						<div className="about-subtitle">Teaching:</div>
 						<br></br>
 						<div>
-							<TimeTable />
+							{/* <TimeTable /> */}
 						</div>
 						<div className="teaching_year">CS 61BL, Summer 25</div>
 						<div className="coursework_year" align="center">Discussion + Lab TA, Exam + Lab Dev</div>
@@ -65,7 +65,7 @@ const About = () => {
 									<a>...</a>
 								</td>
 							</tbody>
-							{/* <tbody>
+							<tbody>
 								<td>
 									<a href="https://cs61bl.github.io/su25/labs/lab01/">Java & Git</a>
 								</td>
@@ -160,7 +160,7 @@ const About = () => {
 								<td>
 									<a>...</a>
 								</td>
-							</tbody> */}
+							</tbody>
 						</table>
 						<br></br>
 						<br></br>
