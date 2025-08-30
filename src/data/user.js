@@ -20,9 +20,9 @@ const INFO = {
 		desc1:
 			"Hi! I'm Karen - nice to meet you 👋.",
 		desc2: 
-			"A little bit about me: I am a third-year student studying Electrical Engineering & Computer Science at UC Berkeley 🧸. Currently, I’m helping out with Berkeley’s Data Structures course, CS61B(L), as a Teaching Assistant, teaching weekly discussions and specializing in lab development and exam writing. I’m interested in computer science education and pedagogical development, and I’m also exploring other areas of CS, including AI/ML, database management, computer security, and more!",
+			"A little bit about me: I am a third-year student studying Electrical Engineering & Computer Science at UC Berkeley 🧸. Currently, I’m helping out with Berkeley’s Data Structures course, CS61B, as a Teaching Assistant, teaching weekly discussions and specializing in exam writing. I’m interested in computer science education and pedagogical development, and I’m also exploring other areas of CS, including AI/ML, database management, computer security, and more!",
 		desc3:
-			"In my free time, I enjoy listening to music 🎶 (mostly cpop, but feel free to rec me anything!), getting boba at Sharetea 👀 🧋, going on late night walks 🌃, and doom-scrolling 💀 through EdStem 🤓 (the course forum used by many CS classes at Berkeley). In case you couldn’t tell, I’m a big fan of using emojis 👌 💯, especially :eyes: and :zany-face: 🤪. I also dabble in grandma hobbies (knitting/crocheting 🧶, baking 🍪, puzzles 🧩, etc.), go on scenic hikes once in a while 😌, and take cool photos sometimes 📸 (see the pic of SF on the right!)"
+			"In my free time, I enjoy listening to music 🎶 (mostly cpop, but feel free to rec me anything!), getting boba at Sharetea 👀 🧋, going on late night walks 🌃, and doom-scrolling 💀 through EdStem 🤓 (the course forum used by many CS classes at Berkeley). In case you couldn’t tell, I’m a big fan of using emojis 👌 💯, especially :eyes: and :zany-face: 🤪. I also dabble in grandma hobbies (knitting/crocheting 🧶, baking 🍪, puzzles 🧩, etc.) and take cool photos sometimes 📸 (see the pic of SF on the right!)"
 	},
 
 	about: {
@@ -107,7 +107,7 @@ const INFO = {
 			title: "Scheme Interpreter",
 			description:
 				"Built a Scheme interpreter using Python.",
-			logo: "https://cs61a.org/proj/scheme/images/scheme_eval_recursion.png",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsz2twJiCcV1fNLBOZNioCGJX1Ij3_tO5cLQ&s",
 			linkText: "N/A",
 			// link: "https://github.com",
 		},

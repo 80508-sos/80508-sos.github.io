@@ -41,6 +41,32 @@ const About = () => {
 					</div>
 					
 					<div className="about-container">
+						{/* <div className="about-container">
+							<div className="about-main">
+								<div className="about-right-side">
+									<div className="title about-title">
+										{INFO.about.title}
+									</div>
+
+									<div className="subtitle about-subtitle">
+										{INFO.about.description}
+									</div>
+								</div>
+
+								<div className="about-left-side">
+									<div className="about-image-container">
+										<div className="about-image-wrapper">
+											<img
+												src="cs61bl.png"
+												alt="about"
+												className="about-image"
+											/>
+										</div>
+									</div>
+								</div>
+							</div> 
+						</div> */}
+
 						<div className="title about-title">
 							{INFO.about.title}
 						</div>
@@ -49,10 +75,14 @@ const About = () => {
 						<div>
 							{/* <TimeTable /> */}
 						</div>
-						<div className="teaching_year">CS 61BL, Summer 25</div>
+						<div className="teaching_year">CS 61B, Fall '25</div>
+						<div className="coursework_year" align="center">Discussion TA, Exam Dev</div>
+						<br></br>
+						<br></br>
+						<div className="teaching_year">CS 61BL, Summer '25</div>
 						<div className="coursework_year" align="center">Discussion + Lab TA, Exam + Lab Dev</div>
 						<br></br>
-						<table>
+						<table className="about-right-side">
 							<thead>
 								<th>Lab</th>
 								<th>Slides</th>
@@ -164,17 +194,13 @@ const About = () => {
 						</table>
 						<br></br>
 						<br></br>
-						<div className="teaching_year">CS 61B, Fall 25</div>
-						<div className="coursework_year" align="center">Discussion TA, Exam Dev</div>
-						<br></br>
-						<br></br>
 						<div className="about-subtitle">Coursework:</div>
 						<div className="coursework">
 						<div className="coursework_year">Fall 2025</div>
 						<ul className="coursework_inner">
-							{/* <li className="coursework_inner"><span>CS 180: </span></li>
-							<li className="coursework_inner"><span>CS 189:</span></li>
-							<li className="coursework_inner"><span>Physics 7B:</span></li> */}
+							<li className="coursework_inner"><span>CS 180: Computer Vision and Computational Photography</span></li>
+							<li className="coursework_inner"><span>CS 189: Machine Learning</span></li>
+							<li className="coursework_inner"><span>Physics 7B: Physics for Scientists and Engineers</span></li>
 						</ul>
 						<br></br>
 						<div className="coursework_year">Spring 2025</div>
@@ -188,14 +214,14 @@ const About = () => {
 							</li>
 							<li className="coursework_inner"><span>CS 170: Efficient Algorithms and Intractable Problems (A)</span></li>
 							<li className="coursework_inner"><span>CS 186: Database Systems (A+)</span></li>
-							<li className="coursework_inner"><span>CS 370: Adaptive Instruction Methods in Computer Science</span></li>
+							<li className="coursework_inner"><span>CS 370: Adaptive Instruction Methods in Computer Science (A)</span></li>
 						</ul>
 						<br></br>
 						<div className="coursework_year">Fall 2024</div>
 						<ul className="coursework_inner">
 							<li className="coursework_inner"><span>CS 61C: Great Ideas in Computer Architecture (A)</span></li>
 							<li className="coursework_inner"><span>CS 70: Discrete Mathematics and Probability Theory (A+)</span></li>
-							<li className="coursework_inner"><span>CS 365: Introduction to Instructional Methods in Computer Science for Academic Interns</span></li>
+							<li className="coursework_inner"><span>CS 365: Introduction to Instructional Methods in Computer Science for Academic Interns (P)</span></li>
 						</ul>
 						<br></br>
 						<div className="coursework_year">Spring 2024</div>

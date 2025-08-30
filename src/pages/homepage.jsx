@@ -23,6 +23,19 @@ import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
+import { ReactTyped } from "react-typed";
+
+const TypeIntro = () => {
+  return (
+    <ReactTyped
+      strings={[
+        "Hi! I'm Karen - nice to meet you!",
+      ]}
+      typeSpeed={80}
+    />
+  );
+};
+
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
@@ -96,7 +109,10 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.desc1}
+									<TypeIntro /> 👋
+									<br></br>
+									{/* &nbsp; <div class="animated-emoji">👋</div>  */}
+									{/* {INFO.homepage.desc1} */}
 								</div>
 
 								<div className="subtitle homepage-subtitle">

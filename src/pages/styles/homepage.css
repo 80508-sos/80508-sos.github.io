@@ -148,3 +148,24 @@
 		margin-right: -25px;
 	}
 }
+
+.animated-emoji {
+	font-size: 26px;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	height: 0px;
+	animation: wave-animation 2.5s;
+	animation-delay: 3.8s;
+	transform-origin: 10% 10%;
+}
+
+@keyframes wave-animation {
+	0% { transform: rotate(0deg); }
+	15% { transform: rotate(14deg); }
+	30% { transform: rotate(-8deg); }
+	45% { transform: rotate(14deg); }
+	60% { transform: rotate(-4deg); }
+	75% { transform: rotate(10deg); }
+	100% { transform: rotate(0deg); }
+}
